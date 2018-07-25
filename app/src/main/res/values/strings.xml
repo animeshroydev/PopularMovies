@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_movie">Movie Title : </string>
+    <string name="movie_name">Movie Name : </string>
+
+    <string name="movie_details">Movie Details</string>
+    <string name="plot">Plot Synopsis</string>
+    <string name="rating">User Rating</string>
+    <string name="release">Release Date</string>
+    <string name="pref_sort_order_label">Sort Order</string>
+    <string name="pref_sort_order_key">SortOrder</string>
+    <string name="pref_most_popular">Most Popular</string>
+    <string name="pref_highest_rated">Highest Rated</string>
+
+    <string name="text_top_rated_movies_label"> Top Rated </string>
+    <string name="text_favorites_movies_label"> Favorites </string>
+    <string name="release_date">Release Date :</string>
+    <string name="average_rating">Ratings :</string>
+    <string name="text_action_try_again">Try Again :</string>
+    <string name="text_no_internet_connection">There Is No Internet Connection</string>
+    <string name="text_action_popular">Most Popular</string>
+    <string name="text_action_top_rated">Highest Rated</string>
+    <string name="text_button_filter">Filter</string>
+    <string name="text_popular_movies"> Most Popular </string>
+    <string name="text_top_rated_movies"> Highest Rated </string>
+    <string name="text_fav_movies"> Favourites </string>
+    <string name="text_review_movies"> Reviews: </string>
+
+    <string name="dummy_vote"> 4.0</string>
+    <string name="dummy_year">2018</string>
+    <string name="plot_synopsys">Overview :</string>
+    <string name="dummy_date">01/02/2018</string>
+    <string name="dummy_trailers">Trailers:</string>
+    <string name="dummy_trailers_NA">Trailers Not Available</string>
+    <string name="dummy_reviews_NA">Reviews Not Available</string>
+
+</resources>

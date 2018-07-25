@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg">#f1f4f8</color>
+    <color name="movie_title">#4c4c4c</color>
+    <color name="color_white">#ffffff</color>
+
+    <color name="material_color_1">#00BCD4</color>
+    <color name="material_color_2">#F44336</color>
+    <color name="material_color_3">#607D8B</color>
+    <color name="material_color_4">#3F51B5</color>
+    <color name="material_color_5">#009688</color>
+    <color name="material_color_6">#FF9800</color>
+</resources>

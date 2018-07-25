@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="movie_title_padding">10dp</dimen>
+    <dimen name="movie_cover_height">15dp</dimen>
+    <dimen name="card_movie_radius">0dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="user_rating_padding_bottom">10dp</dimen>
+    <dimen name="user_rating">12dp</dimen>
+    <dimen name="detail_backdrop_height">500dp</dimen>
+    <dimen name="layout_margin_left">10dp</dimen>
+    <dimen name="layout_margin_top">3dp</dimen>
+    <dimen name="layout_margin_top2">10dp</dimen>
+    <dimen name="layout_margin_top3">12dp</dimen>
+    <dimen name="padding_layout">16dp</dimen>
+    <dimen name="no_internet">16dp</dimen>
+    <dimen name="popular_movies">20sp</dimen>
+    <dimen name="margintop_btn_popular">15sp</dimen>
+    <dimen name="nestedscrollview_height">170dp</dimen>
+
+
+    <dimen name="collapsing_toolbar_height">350dp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="bottom_sheet_height_small">120dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="text_size_average">20sp</dimen>
+    <dimen name="default_elevation">4dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="margin_extra_small">5dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="width_small">16dp</dimen>
+    <dimen name="height_small">16dp</dimen>
+    <dimen name="margin_extra_extra_small">2dp</dimen>
+    <dimen name="like_button">64dp</dimen>
+    <dimen name="x8dp">8dp</dimen>
+    <dimen name="x220dp">220dp</dimen>
+    <dimen name="x22dp">22dp</dimen>
+
+
+    <integer name="animation_dur_medium">2000</integer>
+    <integer name="animation_dur_medium_left">3000</integer>
+
+
+
+
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Layout for displaying specific movie details -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/movie_details_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_extra_small">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin_small">
+
+                <ImageView
+                    android:id="@+id/iv_movie_poster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/holderimg"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/margin_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arkhip_font"
+                        android:text="@string/title_movie"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_size_medium"/>
+
+                    <TextView
+                        android:id="@+id/tv_movie_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arkhip_font"
+                        android:text="@string/movie_name"
+                        android:textSize="@dimen/text_size_medium"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arkhip_font"
+                        android:text="@string/release_date"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_size_medium"/>
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/tv_movie_release_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arkhip_font"
+                        android:text="@string/dummy_date"
+                        android:textSize="@dimen/text_size_medium"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arkhip_font"
+                        android:text="@string/average_rating"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_size_medium"
+                        android:layout_marginTop="@dimen/margin_small"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/ic_star_border_black"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_movie_vote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:text="@string/dummy_vote"
+                            android:fontFamily="@font/arkhip_font"
+                            android:textSize="@dimen/text_size_medium" />
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_gravity="end|bottom"
+                android:layout_height="wrap_content">
+
+                <com.like.LikeButton
+                    android:id="@+id/movieFavBtn"
+                    android:layout_width="@dimen/like_button"
+                    android:layout_height="@dimen/like_button"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:layout_marginRight="@dimen/layout_margin_left"
+                    android:background="@drawable/white_circle_background"
+                    app:anim_scale_factor="2"
+                    app:icon_size="32dp"
+                    app:icon_type="heart" />
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@id/movie_details_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_extra_small"
+            android:id="@+id/cardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_medium">
+
+                <TextView
+                    android:id="@+id/tv_movie_description_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constrainedWidth="true"
+                    android:text="@string/plot_synopsys"
+                    android:fontFamily="@font/arkhip_font"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_movie_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arkhip_font" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_extra_small"
+            android:id="@+id/cardviewT"
+            android:layout_below="@+id/cardView"
+            android:layout_centerHorizontal="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_medium">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constrainedWidth="true"
+                    android:text="@string/dummy_trailers"
+                    android:fontFamily="@font/arkhip_font"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_video_not_available"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_small"
+                    android:fontFamily="@font/arkhip_font"
+                    android:text="@string/dummy_trailers_NA"/>
+
+                <RelativeLayout android:id="@+id/noTSEAtMvTrailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x220dp"
+                    android:layout_marginTop="@dimen/x8dp"
+                    android:layout_marginBottom="@dimen/x8dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@dimen/x8dp"
+                        android:textColor="#D3D3D3"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/x22dp"
+                        android:fontFamily="cursive"/>
+
+
+                </RelativeLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/trailerRv"
+                    android:layout_marginBottom="@dimen/x8dp"
+                    android:layout_marginTop="@dimen/x8dp"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardviewT"
+            android:layout_margin="@dimen/margin_extra_small"
+            android:layout_centerHorizontal="true">
+
+
+            <LinearLayout
+                android:layout_below="@+id/card_movie_videos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_margin="@dimen/margin_small">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_review_movies"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/arkhip_font"/>
+
+                <TextView
+                    android:id="@+id/tv_review_not_available"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_small"
+                    android:fontFamily="@font/arkhip_font"
+                    android:text="@string/dummy_reviews_NA"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_movie_reviews"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
