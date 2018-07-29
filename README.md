@@ -24,3 +24,9 @@ _This is one of the project in Android Developer Nanodegree by **Udacity**_  :ta
 * Modify the existing sorting criteria for the main view to include an additional pivot to show their favorites collection.
 
 ### This app is fetching data from the Internet with [_theMovieDB API_](https://www.themoviedb.org/documentation/api) :movie_camera: :cinema:
+
+### Implementation:
+:red_circle: *Generate an API key from [_theMovieDB API_](https://www.themoviedb.org/documentation/api) and paste it in Constant.java* 
+
+*Screenshot of App :arrow_down:*
+
