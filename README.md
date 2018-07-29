@@ -30,3 +30,6 @@ _This is one of the project in Android Developer Nanodegree by **Udacity**_  :ta
 
 *Screenshot of App :arrow_down:*
 
+
+![popular movies](https://user-images.githubusercontent.com/35850688/43362875-3f8739f2-9317-11e8-9efb-ce9c229144de.jpg)
+
